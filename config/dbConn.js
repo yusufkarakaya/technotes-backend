@@ -2,13 +2,7 @@ const mongoose = require("mongoose");
 
 const connectDB = async () => {
   try {
-    mongoose.connect(process.env.DATABASE_URI),
-      {
-        useNewUrlParser: true,
-        useUnifiedTopology: true,
-        ssl: true,
-        tls: true,
-      };
+    mongoose.connect(process.env.DATABASE_URI);
   } catch (err) {
     console.log(err);
   }
