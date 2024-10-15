@@ -1,6 +1,3 @@
-const allowedOrigins = [
-  "https://technotes-api-f7ke.onrender.com",
-  "http://localhost:5173",
-];
+const allowedOrigins = ["https://technotes-api-f7ke.onrender.com"];
 
 module.exports = allowedOrigins;
