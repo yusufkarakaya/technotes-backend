@@ -6,6 +6,8 @@ const connectDB = async () => {
       {
         useNewUrlParser: true,
         useUnifiedTopology: true,
+        ssl: true,
+        tls: true,
       };
   } catch (err) {
     console.log(err);
